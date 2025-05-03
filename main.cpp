@@ -153,9 +153,9 @@ int main(int argc, char* argv[])
 		{
 			coord.x = xa % width;
 			coord.y = ya % height;
-			coord.z = (ya / depth) % depth;
-			coord.w = (xa / ind) % ind;
-			coord.v = (ya / (depth * ind2)) % ind2;
+			coord.z = (ya / height) % depth;
+			coord.w = (xa / width) % ind;
+			coord.v = (ya / (depth * height)) % ind2;
 
 			size_t iInd = (xa + ya * iW) * iC;
 
