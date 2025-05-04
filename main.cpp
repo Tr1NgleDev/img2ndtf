@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	if (argc < 3)
 	{
 		printf(	"Usage: %s <input image> <output ndtf> [flags]\n"
-				"Converts an image (jpeg/png/tga/bmp/psd/pic) to an NDTF (N-Dimensional Texture Format).\n"
+				"Converts an image (jpeg/png/tga/bmp/psd/pic) to an NDTF (N-Dimensional Texture Format) file.\n"
 				"The channel format is always 8-bit.\n"
 				"Flags:\n"
 				"\t-d <depth> - Specifies the 3rd size of the image. In the input is expected to be going down. Default = 1.\n"
