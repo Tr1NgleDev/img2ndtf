@@ -76,7 +76,7 @@ int main(int argc, char* argv[])
 	}
 
 	int iW, iH, iC;
-	uint8_t* data = stbi_load(input, &iW, &iH, &iC, 4);
+	uint8_t* data = stbi_load(input, &iW, &iH, &iC, 0);
 	desiredChannels = iC;
 
 	if (!data)
